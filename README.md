@@ -7,5 +7,3 @@ bytecode program in the kit's ISA and answers with exactly the bytes each
 program writes and its exit code — including the hard edges: wrapping
 multiply, INT_MIN / -1, unsigned div/mod/compare, shifts masked to 5 bits,
 and all ten traps with the step and output limits.
-
-Run: `node main.ts` (Node 22+). Reads `/input/<id>/`, writes `/output/<id>/`.
